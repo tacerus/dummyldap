@@ -5,7 +5,7 @@
 # in /root/txt
 
 zypper -n in 389-ds
-dscreate -v from-file dsconfig.ini
+dscreate from-file dsconfig.ini
 ./mkusers.sh
 ./mkgroups.sh
 ./fillgroups.sh
