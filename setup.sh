@@ -6,6 +6,7 @@
 
 zypper -n in 389-ds
 dscreate from-file dsconfig.ini
+cp dsrc ~/.dsrc
 ./mkusers.sh
 ./mkgroups.sh
 ./fillgroups.sh
